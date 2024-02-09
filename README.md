@@ -19,6 +19,10 @@ By providing,
 - UserList with UserPrincipalName (UPN). Sample CSV file: [Users.csv](https://github.com/dilith-lab/ActiveDirectory/blob/main/Users/Users.csv)
 
 it will export CSV file with user email address and corresponding CXO.
+
+#### Hierarchical organization
+Using PowerShell and Active Directory, it determines if users directly report to the CEO or traverse the managerial hierarchy. I have use this [UserList](https://github.com/dilith-lab/ActiveDirectory/blob/main/Users/SampleUsers/bulk_users.csv) for the demonstration.
+
 ![Hierarchical organization](https://github.com/dilith-lab/ActiveDirectory/blob/main/Users/SampleUsers/Org-Hierarchy.png "Hierarchical organization")
 
 ## Groups
