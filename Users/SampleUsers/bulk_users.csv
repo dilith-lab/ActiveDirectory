@@ -1,0 +1,25 @@
+firstname,lastname,username,employeeid,city,country,department,telephone,jobtitle,manager
+Lucas,Owens,Lucas_7859,1012,Colombo,Sri Lanka,Corporate Planning and Strategy,533-7857-53,Corporate Planning and Strategy Specialist,Ada_7819
+Eric,Watson,Eric_7753,1002,Colombo,Sri Lanka,Finance,912-7542-80,Finance Manager,Hansani_6000
+Max,Kelley,Max_7817,1005,Colombo,Sri Lanka,Finance,339-1441-70,Finance Executive,Eric_7753
+Robert,Carter,Robert_7841,1007,Colombo,Sri Lanka,Corporate Planning and Strategy,564-5815-12,Corporate Planning and Strategy Officer,Lucas_7859
+Sabrina,Craig,Sabrina_7856,1010,Colombo,Sri Lanka,Finance,389-0008-78,Finance Officer,Max_7817
+Wilson,Rogers,Wilson_7860,1013,Colombo,Sri Lanka,Finance,322-2822-31,Finance Officer,Max_7817
+Hansani,Perera,Hansani_6000,6000,Colombo,Sri Lanka,Finance,100-9406-12,Chief Finance Officer,Yara_1000
+Kelvin,Spencer,Kelvin_7874,1019,Colombo,Sri Lanka,Finance,613-4335-30,Finance Officer,Max_7817
+Amanda,Thomas,Amanda_7773,1004,Colombo,Sri Lanka,Human Resource,448-7022-38,HR Partner,Brad_7873
+Cherry,Reed,Cherry_7863,1014,Colombo,Sri Lanka,Human Resource,010-3200-91,HR Partner,Brad_7873
+Byron,Parker,Byron_7871,1017,Colombo,Sri Lanka,Human Resource,458-6606-31,HR Partner,Brad_7873
+Brad,Hawkins,Brad_7873,1018,Colombo,Sri Lanka,Human Resource,419-2326-67,HR Manager,Jon_5000
+Dilith,Achalan,Dilith_2000,2000,Colombo,Sri Lanka,Information Technology,777-3300-60,Chief Information Officer,Yara_1000
+Josh,Lynch,Josh_7000,1001,Colombo,Sri Lanka,Information Technology,029-3989-35,System Engineer,Dilith_2000
+Carl,Cole,Carl_7850,1008,Colombo,Sri Lanka,Marketing,291-1002-77,Marketing Specialist,Alissa_7857
+Alissa,Clark,Alissa_7857,1011,Colombo,Sri Lanka,Marketing,070-7742-32,Marketing Manager,Kotin_4000
+Fiona,Robinson,Fiona_7771,1003,Colombo,Sri Lanka,Corporate Planning and Strategy,892-1914-05,Corporate Planning and Strategy Specialist,Ada_7819
+Ada,Mason,Ada_7819,1006,Colombo,Sri Lanka,Corporate Planning and Strategy,868-9901-86,Corporate Planning and Strategy Manager,Ama_3000
+Mary,Spencer,Mary_7852,1009,Colombo,Sri Lanka,Corporate Planning and Strategy,180-4387-56,Corporate Planning and Strategy Executive,Fiona_7771
+Richard,Payne,Richard_7866,1015,Colombo,Sri Lanka,Corporate Planning and Strategy,159-5313-20,Corporate Planning and Strategy Executive,Fiona_7771
+Kotlin,Segev,Kotin_4000,4000,Colombo,Sri Lanka,Marketing,070-7742-39,Chief Marketing Officer,Yara_1000
+Yara,Ayurvie,Yara_1000,1000,Colombo,Sri Lanka,CEO Office,777-3300-30,Chief Executive Officer,
+Ama,Fernando,Ama_3000,3000,Colombo,Sri Lanka,Corporate Planning and Strategy,180-4387-59,Chief Operating Officer,Yara_1000
+Jon,Secada,Jon_5000,5000,Colombo,Sri Lanka,Human Resource,458-6606-39,Chief People Officer,Yara_1000
