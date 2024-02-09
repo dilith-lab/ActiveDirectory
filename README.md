@@ -19,7 +19,7 @@ By providing,
 - UserList with UserPrincipalName (UPN). Sample CSV file: [Users.csv](https://github.com/dilith-lab/ActiveDirectory/blob/main/Users/Users.csv)
 
 it will export CSV file with user email address and corresponding CXO.
-![Hierarchical organization](/SampleUsers/Org-Hierarchy.png "Hierarchical organization")
+![Hierarchical organization](https://github.com/dilith-lab/ActiveDirectory/blob/main/Users/SampleUsers/Org-Hierarchy.png "Hierarchical organization")
 
 ## Groups
 ### View Active Directory Group Members
