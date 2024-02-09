@@ -11,8 +11,11 @@
 # Define the Direct Reports - Names of CXO, CXO-1, CXO-2
 $DirectReports = @("Yara Ayurvie", "Ama Fernando", "Hansani Perera", "Jon Secada", "Dilith Achalan", "Kotlin Segev")
 
+# Defind the User List.
+$UserList = '.\Users.csv'
+
 # Get the email addresses from a file
-$Emails = Import-Csv -Path 'Users.csv' | Select-Object -ExpandProperty UserPrincipalName
+$Emails = Import-Csv -Path $UserList | Select-Object -ExpandProperty UserPrincipalName
 
 # Create an empty array to store the output
 $Output = @()

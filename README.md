@@ -1,5 +1,24 @@
 # ActiveDirectory
 Scripts related to Active Directory module
+## Users
+### View Reporting CXO
+The following PowerShell script can be used to view the reporting CXO of a list of users with UserPrincipalName (UPN) in Active Directory. You can download the script from Github.
+
+[ReportingCXO.ps1](https://github.com/dilith-lab/ActiveDirectory/blob/main/Users/ReportingCXO.ps1) 
+```
+PowerShell.exe -ExecutionPolicy Bypass -File .\ReportingCXO.ps1
+
+# Define the CEO's name
+$CEOName = "Yara Ayurvie"
+
+# Defind the User List.
+$UserList = '.\Users.csv'
+```
+By providing,
+- CEOName 
+- UserList with UserPrincipalName (UPN). Sample CSV file: [Users.csv](https://github.com/dilith-lab/ActiveDirectory/blob/main/Users/Users.csv) 
+it will export CSV file with user email address and corresponding CXO.
+
 ## Groups
 ### View Active Directory Group Members
 The following PowerShell script can be used to view the members of an Active Directory group. You can download the script from Github.
@@ -8,7 +27,7 @@ The following PowerShell script can be used to view the members of an Active Dir
 ```
 PowerShell.exe -ExecutionPolicy Bypass -File .\ViewMembers.ps1 -GroupName SystemAdmin
 ```
-By providing group name argument **-GroupName** *[group name]*, it will export CSV file with group members of that specific group.
+By providing group name argument **-GroupName** *[group name]*, it will export a CSV file with group members of that specific group.
 
 ### Add Active Directory Group Members
 The following PowerShell script can be used to add the members to an Active Directory group. You can download the script from Github.

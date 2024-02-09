@@ -11,8 +11,11 @@
 # Define the CEO's name
 $CEOName = "Yara Ayurvie"
 
+# Defind the User List.
+$UserList = '.\Users.csv'
+
 # Get the email addresses from a file
-$Emails = Import-Csv -Path 'Users.csv' | Select-Object -ExpandProperty UserPrincipalName
+$Emails = Import-Csv -Path $UserList | Select-Object -ExpandProperty UserPrincipalName
 
 # Create an empty array to store the output
 $Output = @()
