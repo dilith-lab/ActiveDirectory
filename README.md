@@ -25,6 +25,25 @@ Using PowerShell and Active Directory, it determines if users directly report to
 
 ![Hierarchical organization](https://github.com/dilith-lab/ActiveDirectory/blob/main/Users/SampleUsers/Org-Hierarchy.png "Hierarchical organization")
 
+### View Reporting Managers
+The following PowerShell script can be used to view the reporting Manager (CXO, CXO-1, CXO-2 etc) of a set of userswith UserPrincipalName (UPN) in Active Directory. You can download the script from Github.
+
+[ReportingManager.ps1](https://github.com/dilith-lab/ActiveDirectory/blob/main/Users/ReportingManager.ps1) 
+```
+PowerShell.exe -ExecutionPolicy Bypass -File .\ReportingManager.ps1
+
+# Define the Direct Reports - Names of CXO, CXO-1, CXO-2
+$DirectReports = @("Yara Ayurvie", "Ama Fernando", "Hansani Perera", "Jon Secada", "Dilith Achalan", "Kotlin Segev")
+
+# Defind the User List.
+$UserList = '.\Users.csv'
+```
+By providing,
+- DirectReports 
+- UserList with UserPrincipalName (UPN). Sample CSV file: [Users.csv](https://github.com/dilith-lab/ActiveDirectory/blob/main/Users/Users.csv)
+
+it will export CSV file with user email address and corresponding Direct Reports - Names of CXO, CXO-1, CXO-2.
+
 ## Groups
 ### View Active Directory Group Members
 The following PowerShell script can be used to view the members of an Active Directory group. You can download the script from Github.
